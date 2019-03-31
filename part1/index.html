@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 200제</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let data = [];
+        for(i=1; i<=50; i++) {
+            data.push(i);
+        }
+        data.forEach(function(d){
+            if(d%2 == 1) {
+                console.log(d + ' 홀수!');
+            }
+            else {
+                console.log(d + ' 짝수!');
+            }
+        });
+    </script>
+</body>
+</html>
